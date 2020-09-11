@@ -1,0 +1,28 @@
+.heading-primary {
+    font-size: 3rem;
+    font-family: "BebasNeue-Regular", sans-serif;
+    color: $color-white;
+    text-transform: uppercase;
+
+    &--main {
+        font-size: 3rem;
+
+    }
+
+    &--sub {
+        font-size: 3rem;
+
+    }
+}
+
+
+.heading-secondary {
+    margin-top: 4rem;
+    position: relative;
+    text-align: center;
+
+    &--main {
+        position: absolute;
+        
+    }
+}

@@ -1,3 +1,9 @@
+@font-face {
+  font-family: 'BebasNeue-Regular';
+  src: url("BebasNeue-Regular.eot");
+  src: url("BebasNeue-Regular.eot?#iefix") format("embedded-opentype"), url("BebasNeue-Regular.woff") format("woff"), url("BebasNeue-Regular.ttf") format("truetype");
+}
+
 *,
 *::after,
 *::before {
@@ -15,6 +21,31 @@ html {
 body {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+}
+
+.heading-primary {
+  font-size: 3rem;
+  font-family: "BebasNeue-Regular", sans-serif;
+  color: #FFF;
+  text-transform: uppercase;
+}
+
+.heading-primary--main {
+  font-size: 3rem;
+}
+
+.heading-primary--sub {
+  font-size: 3rem;
+}
+
+.heading-secondary {
+  margin-top: 4rem;
+  position: relative;
+  text-align: center;
+}
+
+.heading-secondary--main {
+  position: absolute;
 }
 
 .u-center-text {
@@ -43,13 +74,6 @@ body {
 
 .space {
   padding: 15rem 0;
-}
-
-.heading-secondary {
-  margin-top: 4rem;
-  position: absolute;
-  text-align: center .heading-secondary --main;
-  text-align-position: absolute;
 }
 
 .row {
@@ -112,7 +136,6 @@ body {
   background-size: cover;
   background-position: top;
   position: relative;
-  z-index: 500;
   -webkit-clip-path: polygon(0 40%, 100% 0, 100% 90vh, 0 100%);
   clip-path: polygon(0 40%, 100% 0, 100% 90vh, 0 100%);
 }

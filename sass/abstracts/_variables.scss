@@ -14,3 +14,14 @@ $default-font-size: 1.6rem;
 $grid-width: 114rem;
 $gutter-vertical: 8rem;
 $gutter-horizontal: 6rem;
+
+// CUSTOM-FONT
+
+@font-face {
+    font-family: 'BebasNeue-Regular';
+    src: url('BebasNeue-Regular.eot'); // IE9 Compat Modes
+    src: url('BebasNeue-Regular.eot?#iefix') format('embedded-opentype'), // IE6-IE8
+    url('BebasNeue-Regular.woff') format('woff'), // Modern Browsers
+    url('BebasNeue-Regular.ttf')  format('truetype'); // Safari, Android, iOS 
+    // url('BebasNeue-Regular.svg#svgFontName') format('svg'); // Legacy iOS 
+}
