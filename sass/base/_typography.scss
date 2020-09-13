@@ -1,16 +1,17 @@
 .heading-primary {
-    font-size: 3rem;
-    font-family: "BebasNeue-Regular", sans-serif;
-    color: $color-white;
-    text-transform: uppercase;
 
-    &--main {
-        font-size: 3rem;
+    &--first {
+        display: block;
+        top: 20%;
+        left: 30%;
+        letter-spacing: 2rem;
 
     }
 
-    &--sub {
-        font-size: 3rem;
+    &--second {
+        display: block;
+        bottom: 3rem;
+        right: 5rem;
 
     }
 }
@@ -18,11 +19,7 @@
 
 .heading-secondary {
     margin-top: 4rem;
-    position: relative;
     text-align: center;
 
-    &--main {
-        position: absolute;
-        
-    }
+   
 }

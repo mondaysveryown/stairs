@@ -19,9 +19,9 @@ $gutter-horizontal: 6rem;
 
 @font-face {
     font-family: 'BebasNeue-Regular';
-    src: url('BebasNeue-Regular.eot'); // IE9 Compat Modes
-    src: url('BebasNeue-Regular.eot?#iefix') format('embedded-opentype'), // IE6-IE8
-    url('BebasNeue-Regular.woff') format('woff'), // Modern Browsers
-    url('BebasNeue-Regular.ttf')  format('truetype'); // Safari, Android, iOS 
-    // url('BebasNeue-Regular.svg#svgFontName') format('svg'); // Legacy iOS 
+    src: url('../css/font/BebasNeue-Regular.eot'); // IE9 Compat Modes
+    src: url('../css/font/BebasNeue-Regular.eot?#iefix') format('embedded-opentype'), // IE6-IE8
+    url('../css/font/BebasNeue-Regular.woff') format('woff'), // Modern Browsers
+    url('../css/font/BebasNeue-Regular.ttf')  format('truetype'); // Safari, Android, iOS 
+    // url(BebasNeue-Regular.svg#svgFontName) format('svg'); // Legacy iOS 
 }
