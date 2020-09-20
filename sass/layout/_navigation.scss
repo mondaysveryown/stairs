@@ -1,31 +1,31 @@
 .navigation {
 
     &__nav {
-        width: 100%;
-        position: fixed;
-        z-index: 1000;
+        width: 100%; // take up the whole screen
+        position: fixed; // navigation hovers over the website even when scrolling
+        z-index: 1000; // helps menu stay above all content
         
     }
 
     &__list {
-        list-style: none;
+        list-style: none; 
         text-align: center;
         text-transform: uppercase;
-        border: 1px solid rgba($color-black, .1);
+        border: 1px solid rgba($color-black, .1); // help give depth to the navigation
         background-color: rgba($color-secondary, 0.8);
     }
 
     &__item {
         font-size: 2rem;
-        margin-right: 4rem;
+        margin-right: 4rem; // double check use
         padding: 2rem 7rem;
-        display: inline-block;
+        display: inline-block; //help with padding and menu bars items stay next to each other
         
         &:hover{
-            transform: translateY(.5rem);
+            transform: translateY(.5rem); // adds to  dynamic menu bar
         }
 
-        &::nth-child(:last-child) {
+        &::nth-child(:last-child) { // not sure if works, havw to fix
             margin:1rem;
         }
     }

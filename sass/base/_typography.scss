@@ -1,7 +1,7 @@
 .heading-primary {
 
     &--first {
-        display: block;
+        display: block; //neds correction, wont show up on page 
         top: 20%;
         left: 30%;
         letter-spacing: 2rem;
@@ -9,7 +9,7 @@
     }
 
     &--second {
-        display: block;
+        display: block; // content not coming up
         bottom: 3rem;
         right: 5rem;
 
